@@ -1,13 +1,9 @@
 ---
-added: '2024-06-11 22:27:12.270755'
-thumbnail: https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/200,200/0/default.jpg
-title: Groot Gouda | 19 september 1945
-user: Bob Coret
-
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://coret.github.io/annonatate/manifests/GROOT%20GOUDA/1945-09-19/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/GROOT%20GOUDA/1945-09-19/manifest.json",
   "@type": "sc:Manifest",
   "label": "Groot Gouda | 19 september 1945",
   "metadata": [
@@ -20,18 +16,12 @@ user: Bob Coret
       "value": "19 september 1945"
     }
   ],
-  "related": {
-    "@id": "https://kranten.samh.nl/issue/GROOT%20GOUDA/1945-09-19/edition/null/page/1",
-    "type": "Text",
-    "label": "Pagina op kranten.samh.nl",
-    "format": "text/html"
-  },
   "thumbnail": {
     "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/200,200/0/default.jpg",
     "@type": "dctypes:Image",
     "format": "image/jpeg",
-    "width": 200,
-    "height": 200
+    "height": 200,
+    "width": 200
   },
   "sequences": [
     {
@@ -42,6 +32,13 @@ user: Bob Coret
           "@id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p1",
           "@type": "sc:Canvas",
           "label": "Pagina 1",
+          "thumbnail": {
+            "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/200,200/0/default.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "height": 200,
+            "width": 200
+          },
           "height": 5808,
           "width": 3865,
           "images": [
@@ -53,29 +50,36 @@ user: Bob Coret
                 "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
+                "height": 5808,
+                "width": 3865,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2",
                   "profile": "http://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "height": 5808,
-                "width": 3865
+                }
               },
               "on": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p1"
             }
           ],
-          "thumbnail": {
-            "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/200,200/0/default.jpg",
-            "@type": "dctypes:Image",
-            "format": "image/jpeg",
-            "width": 200,
-            "height": 200
-          }
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/2-groot-20gouda-1945-09-19-p1-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         },
         {
           "@id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p2",
           "@type": "sc:Canvas",
           "label": "Pagina 2",
+          "thumbnail": {
+            "@id": "https://images.memorix.nl/sahm/iiif/d488e1bb-3374-4f62-9328-ad9dc6817a3d/full/200,200/0/default.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "height": 200,
+            "width": 200
+          },
           "height": 5808,
           "width": 3865,
           "images": [
@@ -87,26 +91,32 @@ user: Bob Coret
                 "@id": "https://images.memorix.nl/sahm/iiif/d488e1bb-3374-4f62-9328-ad9dc6817a3d/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
+                "height": 5808,
+                "width": 3865,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://images.memorix.nl/sahm/iiif/d488e1bb-3374-4f62-9328-ad9dc6817a3d",
                   "profile": "http://iiif.io/api/image/2/profiles/level2.json"
-                },
-                "height": 5808,
-                "width": 3865
+                }
               },
               "on": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p2"
             }
           ],
-          "thumbnail": {
-            "@id": "https://images.memorix.nl/sahm/iiif/d488e1bb-3374-4f62-9328-ad9dc6817a3d/full/200,200/0/default.jpg",
-            "@type": "dctypes:Image",
-            "format": "image/jpeg",
-            "width": 200,
-            "height": 200
-          }
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/2-groot-20gouda-1945-09-19-p2-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "related": {
+    "@id": "https://kranten.samh.nl/issue/GROOT%20GOUDA/1945-09-19/edition/null/page/1",
+    "type": "Text",
+    "label": "Pagina op kranten.samh.nl",
+    "format": "text/html"
+  }
 }
