@@ -1,8 +1,18 @@
-images: []
+images:
+- added: '2024-06-11 22:41:01.516669'
+  iiif: true
+  thumbnail: https://images.memorix.nl/sahm/iiif/d0bc46d1-49c4-29dd-2b08-e6d3eef5e942/full/200,200/0/default.jpg
+  title: Groot Gouda | 20 september 1945
+  url: https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-20
+  user: Bob Coret
 settings: {}
 version: '2.1'
 vocab:
 - label: advertentie
+  uri: https://www.goudatijdmachine.nl/id/advertentie
 - label: artikel
+  uri: https://www.goudatijdmachine.nl/id/artikel
 - label: familiebericht
+  uri: https://www.goudatijdmachine.nl/id/familiebericht
 - label: illustratie met onderschrift
+  uri: https://www.goudatijdmachine.nl/id/illustratie-met-onderschrift
