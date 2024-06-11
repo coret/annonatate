@@ -20,7 +20,10 @@ order: 1
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Familiebericht",
+            "source": {
+                "id": "https://www.goudatijdmachine.nl/id/familiebericht",
+                "label": "familiebericht"
+            },
             "creator": {
                 "id": "coret",
                 "name": "Bob Coret"
