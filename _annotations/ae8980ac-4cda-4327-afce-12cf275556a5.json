@@ -1,0 +1,51 @@
+---
+canvas: "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "zoekt dienstmeisje",
+            "purpose": "describing",
+            "creator": {
+                "id": "coret",
+                "name": "Bob Coret"
+            },
+            "created": "2024-06-11T22:29:44.302Z",
+            "modified": "2024-06-11T22:29:54.550Z"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "https://www.goudatijdmachine.nl/id/familiebericht",
+                "label": "familiebericht"
+            },
+            "creator": {
+                "id": "coret",
+                "name": "Bob Coret"
+            },
+            "created": "2024-06-11T22:30:05.517Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://coret.github.io/annonatate/manifests/GROOT GOUDA/1945-09-19/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2953.18798828125,2466.136962890625,689.908447265625,327.8017578125"
+        }
+    },
+    "id": "ae8980ac-4cda-4327-afce-12cf275556a5.json",
+    "motivation": "commenting"
+}
