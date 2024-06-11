@@ -1,0 +1,48 @@
+---
+canvas: "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-18/canvas/p2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Mevrouw Mogendorff",
+            "purpose": "describing",
+            "creator": {
+                "id": "coret",
+                "name": "Bob Coret"
+            },
+            "created": "2024-06-11T22:13:18.020Z",
+            "modified": "2024-06-11T22:13:37.017Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Familiebericht",
+            "creator": {
+                "id": "coret",
+                "name": "Bob Coret"
+            },
+            "created": "2024-06-11T22:13:29.340Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-18",
+                "type": "Manifest"
+            },
+            "id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-18/canvas/p2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2287.281005859375,2819.07177734375,646.551025390625,282.180908203125"
+        }
+    },
+    "id": "0f165424-ccb3-4bec-9685-ba0731fd68c9.json",
+    "motivation": "commenting"
+}
