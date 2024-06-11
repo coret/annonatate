@@ -1,0 +1,112 @@
+---
+added: '2024-06-11 22:27:12.270755'
+thumbnail: https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/200,200/0/default.jpg
+title: Groot Gouda | 19 september 1945
+user: Bob Coret
+
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://coret.github.io/annonatate/manifests/GROOT%20GOUDA/1945-09-19/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Groot Gouda | 19 september 1945",
+  "metadata": [
+    {
+      "label": "Krant",
+      "value": "Groot Gouda"
+    },
+    {
+      "label": "Datum uitgave",
+      "value": "19 september 1945"
+    }
+  ],
+  "related": {
+    "@id": "https://kranten.samh.nl/issue/GROOT%20GOUDA/1945-09-19/edition/null/page/1",
+    "type": "Text",
+    "label": "Pagina op kranten.samh.nl",
+    "format": "text/html"
+  },
+  "thumbnail": {
+    "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/200,200/0/default.jpg",
+    "@type": "dctypes:Image",
+    "format": "image/jpeg",
+    "width": 200,
+    "height": 200
+  },
+  "sequences": [
+    {
+      "@id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/sequence/normal",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "Pagina 1",
+          "height": 5808,
+          "width": 3865,
+          "images": [
+            {
+              "@id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/annotation/p1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2",
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "height": 5808,
+                "width": 3865
+              },
+              "on": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p1"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://images.memorix.nl/sahm/iiif/c96c5018-442e-b1a6-0524-7e16fe5010a2/full/200,200/0/default.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "width": 200,
+            "height": 200
+          }
+        },
+        {
+          "@id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "Pagina 2",
+          "height": 5808,
+          "width": 3865,
+          "images": [
+            {
+              "@id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/annotation/p2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://images.memorix.nl/sahm/iiif/d488e1bb-3374-4f62-9328-ad9dc6817a3d/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://images.memorix.nl/sahm/iiif/d488e1bb-3374-4f62-9328-ad9dc6817a3d",
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "height": 5808,
+                "width": 3865
+              },
+              "on": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p2"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://images.memorix.nl/sahm/iiif/d488e1bb-3374-4f62-9328-ad9dc6817a3d/full/200,200/0/default.jpg",
+            "@type": "dctypes:Image",
+            "format": "image/jpeg",
+            "width": 200,
+            "height": 200
+          }
+        }
+      ]
+    }
+  ]
+}
