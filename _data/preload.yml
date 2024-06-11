@@ -1,3 +1,12 @@
 images: []
 settings: {}
 version: '2.1'
+vocab:
+- label: advertentie
+  uri: https://www.goudatijdmachine.nl/id/advertentie
+- label: artikel
+  uri: https://www.goudatijdmachine.nl/id/artikel
+- label: familiebericht
+  uri: https://www.goudatijdmachine.nl/id/familiebericht
+- label: illustratie met onderschrift
+  uri: https://www.goudatijdmachine.nl/id/illustratie-met-onderschrift
