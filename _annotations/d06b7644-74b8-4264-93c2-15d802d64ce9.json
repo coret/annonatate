@@ -1,0 +1,51 @@
+---
+canvas: "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Test",
+            "purpose": "describing",
+            "creator": {
+                "id": "coret",
+                "name": "Bob Coret"
+            },
+            "created": "2024-06-11T22:41:34.393Z",
+            "modified": "2024-06-11T22:41:40.758Z"
+        },
+        {
+            "type": "SpecificResource",
+            "purpose": "tagging",
+            "source": {
+                "id": "https://www.goudatijdmachine.nl/id/artikel",
+                "label": "artikel"
+            },
+            "creator": {
+                "id": "coret",
+                "name": "Bob Coret"
+            },
+            "created": "2024-06-11T22:41:47.359Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://coret.github.io/annonatate/manifests/GROOT%20GOUDA/1945-09-19/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://www.goudatijdmachine.nl/iiif/2/krant/GROOT%20GOUDA/1945-09-19/canvas/p1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2746.524658203125,900.0255737304688,830.939697265625,510.76092529296875"
+        }
+    },
+    "id": "d06b7644-74b8-4264-93c2-15d802d64ce9.json",
+    "motivation": "commenting"
+}
